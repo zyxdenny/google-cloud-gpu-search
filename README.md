@@ -18,3 +18,10 @@ If you do not have Google Cloud SSH-key pairs, the program will automatically ge
 
 ## Result 
 An example output CSV `zones.result.csv` is the result run on Mar 04, 2024.
+
+## Sort the result 
+To sort the result, use the command 
+```
+{ head -n 1 zones.result.csv; cat zones.result.csv | tail -n +2 | sort -t ',' -r -k2; } > zones.result.sorted.csv
+```
+
