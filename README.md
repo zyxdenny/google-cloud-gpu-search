@@ -15,3 +15,6 @@ Install [Google Cloud SDK](https://cloud.google.com/sdk/docs/install-sdk) and [i
 
 ## Note 
 If you do not have Google Cloud SSH-key pairs, the program will automatically generate `google_compute_engine.pub` and `google_compute_engine` SSH-key pair for you with no passphrase.
+
+## Result 
+An example output CSV `zones.result.csv` is the result run on Mar 04, 2024.
