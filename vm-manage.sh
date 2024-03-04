@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 VM_PREFIX='test'
 YELLOW='\e[1;33m'
