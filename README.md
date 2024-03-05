@@ -19,6 +19,14 @@ If you do not have Google Cloud SSH-key pairs, the program will automatically ge
 ## Result 
 An example output CSV `zones.result.csv` is the result run on Mar 04, 2024.
 
+The screenshot below is an example output when the instance is successfully initialised.
+![success](./screenshots/success.png) 
+The screenshot below is an example output when the resource pool is out.
+![exhausted](./screenshots/pool-exhausted.png)
+The screenshots below are example outputs when there is no GPU in the zone.
+![no-gpu-1](./screenshots/no-gpu-1.png)
+![no-gpu-2](./screenshots/no-gpu-2.png) 
+
 ## Sort the result 
 To sort the result, use the command 
 ```
